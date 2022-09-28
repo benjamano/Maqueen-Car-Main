@@ -26,6 +26,10 @@ radio.onReceivedString(function (receivedString) {
     if (receivedString == "rightled") {
         maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
     }
+    if (receivedString == "ledsoff") {
+        maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
+        maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
+    }
 })
 radio.setGroup(42069)
 let strip = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
