@@ -22,17 +22,9 @@ radio.onReceivedString(function (receivedString) {
     }
     if (receivedString == "leftled") {
         maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
-        basic.pause(5000)
-        basic.pause(5000)
-        basic.pause(5000)
-        maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
     }
     if (receivedString == "rightled") {
         maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
-        basic.pause(5000)
-        basic.pause(5000)
-        basic.pause(5000)
-        maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
     }
 })
 radio.setGroup(42069)
