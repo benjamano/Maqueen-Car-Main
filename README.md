@@ -1,3 +1,8 @@
+## Introduction
+
+I made this code which works with the "Maqueen" microbit extension, this is the code for the car, which can read instructions coming from an external controller. It should be "Plug and Play" buy just downloading this code into the car and the controller code into the controller.
+
+
 
 > Open this page at [https://benjamano.github.io/maqueen-car-main/](https://benjamano.github.io/maqueen-car-main/)
 
